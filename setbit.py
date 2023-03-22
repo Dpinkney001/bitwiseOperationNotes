@@ -34,20 +34,7 @@ def modify_bit(x, position, state):
 
 def operation():
     
-    int x = 0
-    int position = 0
-    int mask = 0
-    
-    
-    x = 01100110
-    position = 00000010
-    mask = 00000100
-    
-    int output1
-    int output2
-    int output3
-    int output4
-    int output5
+   
 
     
     print(x)
@@ -55,11 +42,7 @@ def operation():
     print (mask)
     
     
-    set_bit(x, position)
-    clear_bit(x, position)
-    flip_bit(x, position)
-    is_bit_set(x, position)
-    modify_bit(x, position, state)
+    
     
     
     output1 = set_bit(x, position)
@@ -75,6 +58,28 @@ def operation():
     print(output5)
    
 def main():
+    
+    int x = 0
+    int position = 0
+    int mask = 0
+    
+    
+    x = 01100110
+    position = 00000010
+    mask = 00000100
+    
+    int output1
+    int output2
+    int output3
+    int output4
+    int output5
+    
+    
+    set_bit(x, position)
+    clear_bit(x, position)
+    flip_bit(x, position)
+    is_bit_set(x, position)
+    modify_bit(x, position, state)
     operation()    
     
 
